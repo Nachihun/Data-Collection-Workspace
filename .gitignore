@@ -1,0 +1,27 @@
+# 대용량 결과 파일 (재생성 가능)
+output/*.html
+source/*.csv
+
+# Python 관련
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter 체크포인트
+.ipynb_checkpoints/
+
+# uv 관련 (선택 - lock 파일은 보통 커밋하는 게 좋음)
+# uv.lock 은 그대로 커밋 권장
+
+# OS 관련
+.DS_Store
+Thumbs.db
+
+# 환경변수/민감정보
+.env
+*.key
+
+# IDE
+.vscode/
+.idea/
