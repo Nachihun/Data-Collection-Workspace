@@ -1,6 +1,8 @@
 # 대용량 결과 파일 (재생성 가능)
-output/*.html
-source/*.csv
+output/
+source/
+*.csv
+*.html
 
 # Python 관련
 __pycache__/
