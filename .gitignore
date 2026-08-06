@@ -3,6 +3,10 @@ output/
 source/
 *.csv
 *.html
+model/
+uv.lock
+pyproject.toml
+
 
 # Python 관련
 __pycache__/
