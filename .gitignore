@@ -8,6 +8,8 @@ uv.lock
 pyproject.toml
 raw/
 *.zip
+cache/
+data/
 
 
 # Python 관련
